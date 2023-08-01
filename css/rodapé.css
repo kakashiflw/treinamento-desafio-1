@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+.rodapé_container {
+    background: rgb(156,156,170);
+    background: linear-gradient(90deg, rgba(156,156,170,0.798739564185049) 0%, rgba(64,74,179,1) 0%, rgba(29,19,222,1) 100%);
+    padding: 0.3em 2em;
+    display: flex;
+    font-family: var(--familia-rodapé);
+    justify-content: space-between;
+}    
+
+.container {
+    padding:2.5em 57em 0em 0em;
+}
+
+.container_titulo {
+
+    font-size: 2rem;
+}
+
+.container_1 {
+
+    padding: 0em 16em 0em 0em;
+    font-size: 1.2rem;
+}
+

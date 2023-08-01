@@ -1,0 +1,76 @@
+@keyframes animacao{
+
+    from {}
+    to {}
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@1,6..12,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.conteudo {
+
+    background-repeat: no-repeat;
+    margin: 20em;
+    display: grid ;
+   
+}
+
+.conteudo_seção {
+
+    text-align: center;
+}
+
+.conteudo_titulo {
+
+    color: black;
+    font-size: 4em ;
+    font-family: var(--familia-titulo-conteudo);
+}
+
+.conteudo_titulo {
+
+    margin: 2em;
+}
+
+.conteudo_lista {
+
+    display: block;
+    margin-left: 1em;
+    align-items: center;
+}
+
+.lista_elemento {
+
+    font-size: 2em;
+    font-family: var(--familia-lista);
+}
+
+.texto_elemento {
+
+    font-size: 30px;
+    font-family: var(--familia-texto-da-lista);
+    margin-bottom: 2em;
+    margin-top: 0.5em;;
+}
+
+.divisão_elemento {
+
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+}
+
+.imagem {
+
+    width: 25em;
+    height: 25em;
+    margin-bottom: 8em;
+}
+
+.um {
+
+    margin-right: 10em;
+}

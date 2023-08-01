@@ -1,0 +1,41 @@
+@keyframes  animacao{
+
+    from { background-color: var(--branco);}
+    to {background-color: aqua}
+}
+
+@import url('https://fonts.googleapis.com/css2?family=REM&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opszz,wght@1,6..12,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+:root {
+    --cor-de-fundo:#F8F1F1;
+    --cor-destaque:#28B5B5;
+    --branco:white;
+    --preto:black;
+    --cor-do-botão:#0E2954;
+
+    --familia-pricipal: 'REM', sans-serif;
+    --familia-titulo-conteudo: 'Nunito Sans', sans-serif;
+    --familia-lista: 'Manrope', sans-serif;
+    --familia-texto-da-lista:  'Inter', sans-serif;
+    --familia-final: 'Roboto Condensed', sans-serif;
+    --familia-botão: 'Roboto', sans-serif;
+    --familia-rodapé: 'Noto Sans', sans-serif;
+}
+
+* {
+    margin: 0vh;
+    padding: 0vh;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--branco);
+    height: 100vh;
+    animation-name: animacao;
+}

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.link {
+
+    margin: 35em 30em;
+    align-items: center;
+
+}
+
+.texto_link{
+
+    font-size: 3rem;
+    margin-bottom: 3em;
+    margin-left: 2.9em;
+    font-family: var(--familia-botão);
+}
+
+.botão {
+
+    font-size: 2rem;
+    color: var(--cor-do-botão);
+    text-decoration: none;
+    border: 3px solid var(--preto);
+    border-radius: 15px;
+    padding: 0.7em 5em;
+    margin-left: 4.6em;
+    font-family: var(--familia-botão);
+}
+
+.botão:hover {
+
+    padding: 1em 6em;
+    background-color: #0E8388;
+}

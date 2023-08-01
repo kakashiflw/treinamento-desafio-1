@@ -1,0 +1,56 @@
+@keyframes animacao{
+
+    from {background-color: white} 
+    to {background-color: blue} 
+}
+ 
+ @import url('https://fonts.googleapis.com/css2?family=REM&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@1,6..12,500&display=swap');
+
+.titulo_inicio {
+
+    font-size: 3rem;
+    font-family: var(--familia-pricipal);   
+    margin-bottom: 0.5em;
+}
+
+.texto_inicio {
+    font-size: 2rem;
+    font-family: var(--familia-pricipal);
+}
+
+.apresentação_estrofe {
+
+    margin: 15em;
+}
+
+ .apresentação {
+
+    background-image: url("../img/telas\ cadastro-cadastro\ \(1\).png");
+}
+
+.inicio {
+
+    background-position: 73% -1.77em;
+    background-size: 30rem;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.principal_lista {
+
+    margin-top: 5em;
+    margin-bottom: 7em;
+}
+
+.principal_lista_elentos {
+
+    font-size: 2em;
+    font-family: var(--familia-lista);
+    margin: 0em 0em 0.5em 0em;
+}
+
+.divisão_principal {
+
+    gap: 30px;
+}

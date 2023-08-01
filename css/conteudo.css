@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+.final {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4em;
+    border: 20px solid, var(--preto);
+    text-align: center;
+}
+
+.titulo_final {
+    text-align: center;
+    align-items: center;
+    font-size: 8rem;
+    text-decoration: solid;
+}
+
+.texto_final {
+    font-size: 2rem;
+    margin: 0.5em 1em;
+
+}
+
+.imagem_final {
+    align-items: center;
+    margin-top: 35em;
+}
+
+.imagem_final_decoração {
+
+    width: 400px;
+}
+
+.estrofe_final {
+
+    margin-left: 8em;
+    font-family: var(--familia-final);
+}
