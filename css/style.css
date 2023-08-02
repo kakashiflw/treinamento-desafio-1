@@ -11,6 +11,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols&display=swap');
 
 :root {
     --cor-de-fundo:#F8F1F1;
@@ -26,6 +27,9 @@
     --familia-final: 'Roboto Condensed', sans-serif;
     --familia-botão: 'Roboto', sans-serif;
     --familia-rodapé: 'Noto Sans', sans-serif;
+    --familia-formulario:'Noto Sans Symbols', sans-serif;
+
+
 }
 
 * {
@@ -38,4 +42,6 @@ body {
     background-color: var(--branco);
     height: 100vh;
     animation-name: animacao;
+    height: 100%;
+    width: 100%;
 }
