@@ -1,26 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
-.rodapé_container {
+.rodapé {
     background: rgb(156,156,170);
     background: linear-gradient(90deg, rgba(156,156,170,0.798739564185049) 0%, rgba(64,74,179,1) 0%, rgba(29,19,222,1) 100%);
-    padding: 0.3em 2em;
-    display: flex;
-    font-family: var(--familia-rodapé);
-    justify-content: space-between;
+    padding: 1em 0em 1em 0em;
 }    
 
-.container {
-    padding:2.5em 57em 0em 0em;
+.rodapé_container {
+
+    /* display: grid 35% 35% 30%; */
+    display: flex;
+    justify-content: space-around;
 }
 
-.container_titulo {
+.rodapé_titulo {
 
-    font-size: 2rem;
+    font-size: 3em;
+    font-family: var(--familia-rodapé);
 }
 
-.container_1 {
+.titulo_lista {
 
-    padding: 0em 16em 0em 0em;
+    font-size: 1.6rem;
+}
+
+.lista_rodapé {
+
+    font-family: var(--familia-rodapé);
+}
+
+.lista_rodapé_elemento {
+
+    padding-top: 1em;
     font-size: 1.2rem;
 }
 
+.elemento_objetivo {
+
+    width: 10em;
+}
