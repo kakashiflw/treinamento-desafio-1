@@ -18,48 +18,54 @@
     <main>
 
         <section class="seção_formulario">
-            <form class="formulario">
-                <div class="campo um">
+            <form class="formulario" id="formularios">
+                <div class="campo">
                     <h4 class="tiutlo_formulario">Nome Completo</h1>
 
-                    <input placeholder="escreva seu nome completo" class="texto" type="text" name="nome" id="cadastro">
+                    <input class="campos" placeholder="escreva seu nome completo" class="texto" type="text" name="nome" id="seuNome">
                     <label for="nome"></label>
                 
                     <h4 class="tiutlo_formulario">Data de Nascimento</h1>
 
-                    <input placeholder="escreva a sua data de nascimento" class="texto" type="text" name="data" id="cadastro">
+                    <input class="campos" placeholder="escreva a sua data de nascimento" class="texto" type="date" name="data" id="nascimento">
                     <label for="data"></label>
                 
                     <h4 class="tiutlo_formulario">Sexo (masculino/feminino)</h1>
 
-                    <input placeholder="escreva seu genero" class="texto" type="text" name="sexo" id="cadastro">
+                    <input class="campos" placeholder="sexo" class="texto" type="text" name="sexo" id="genero">
                     <label for="sexo"></label>
-                </div>
 
-                <div class="campo dois">
                     <h4 class="tiutlo_formulario">Endereço</h1>
 
-                    <input placeholder="escreva seu endereço" class="texto" type="text" name="endereço" id="cadastro">
-                    <label for="endereço"></label>
+                    <input class="campos" placeholder="escreva seu endereço" class="texto" type="text" name="endereço" id="rua">
+                    
+                    <label for="rua"></label>
 
                     <h4 class="tiutlo_formulario">Número de celular</h1>
 
-                    <input placeholder="digite seu numero de celular" class="texto" type="text" name="número" id="cadastro">
-                    <label for="número"></label>
+                    <input class="campos" placeholder="digite seu numero de celular" class="texto" type="tel" name="número" id="numero_tel">
+
+                    <label for="numero_tel"></label>
 
                     <h4 class="tiutlo_formulario">Email</h1>
 
-                    <input placeholder="escreva seu e-mail" class="texto" type="text" name="email" id="login">
+                    <input class="campos" placeholder="escreva seu e-mail" class="texto" type="email" name="email" id="login">
+
+                    <label for="login"></label>
 
                     <h4>Digite a senha do e-mail</h4>
 
-                    <input class="texto" type="password" name="senha" id="login_senha" placeholder="escreva sua senha">
-                    <label for="email"></label>
-                    <input type="submit" name="botão" id="cadastrar" placeholder="cadastrar">
+                    <input class="campos" class="texto" type="password" name="login_senha" id="senha" placeholder="escreva sua senha">
+
+                    <label for="senha"></label>
+
+                    <button id="cadastrar">cadastrar</button>
                 </div>
             </form>
-        </section>
+            <ul id="listaDeCadastros">
 
+            </ul>
+        </section>
 
         <section class="link">
             <p class="texto_link"> Para voltar a tela de apresentação do desafio clique no botão abaixo</p>
