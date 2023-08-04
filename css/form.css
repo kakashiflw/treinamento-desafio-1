@@ -49,3 +49,9 @@ input {
     font-size: 1rem;
     text-align: center;
 }
+
+.seleção {
+    padding: 1.25em 29.6em 1.25em 0em;
+    border-radius: 8px;
+    text-align: center;
+}
