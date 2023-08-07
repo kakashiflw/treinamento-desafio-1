@@ -11,12 +11,11 @@
 
 .formulario {
 
-    margin: 5em 50em;
+    margin: 5em 55em;
     font-family: var(--familia-formulario);
     align-items: center;
     display: flex;
     flex-direction: column;
-
 }
 
 .texto {
