@@ -6,6 +6,7 @@
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,109,121,1) 45%, rgba(0,212,255,1) 100%);
     padding-top: 2em;
     padding-bottom: 1.5em;
+    color: white;
 }
 
 .formulario {
@@ -74,3 +75,18 @@ input {
     text-align: center;
     font-family: var(--familia-formulario);
 }
+
+.divisão_lista_dinamica {
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,109,121,1) 45%, rgba(0,212,255,1) 100%);
+    color: var(--preto);
+    /* margin-top: 5em; */
+}    
+.lista_dinamica {
+    padding-left: 45em;
+    font-family: var(--familia-formulario);
+    font-size: 1.3rem;
+    padding-bottom: 0.5em; 
+}
+

@@ -33,9 +33,9 @@
                     <h4 class="tiutlo_formulario">Sexo</h4>
 
                     <select class="seleção" name="" id="genero">
-                        <option class="alternativa" value="">mulher</option>
-                        <option class="alternativa" value="">homem</option>
-                        <option class="alternativa" value="">outro</option>
+                        <option id="opcao" class="alternativa" value="">mulher</option>
+                        <option id="opcao" class="alternativa" value="">homem</option>
+                        <option id="opcao" class="alternativa" value="">outro</option>
                     </select>
 
                     <h4 class="tiutlo_formulario">Endereço</h4>
@@ -46,7 +46,7 @@
 
                     <h4 class="tiutlo_formulario">Número de celular</h4>
 
-                    <input class="campos" placeholder="digite seu numero de celular" class="texto" type="tel" name="número" id="numero_tel" autocomplete="off" maxlength="14">
+                    <input class="campos" placeholder="digite seu numero de celular" class="texto" type="text" name="número" id="numero_tel" autocomplete="off" maxlength="14">
 
                     <label for="numero_tel"></label>
 
@@ -67,10 +67,18 @@
                     </div>
                 </div>
             </form>
-            <ul id="listaDeCadastros">
-
-            </ul>
+           
         </section>
+
+        <div class="divisão_lista_dinamica">
+            <ul class="lista_dinamica" id="listaDeCadastros">
+                <li class="elemento_dinamico">Victor</li>
+                <li class="elemento_dinamico">albert</li>
+                <li class="elemento_dinamico">caique</li>
+                <li class="elemento_dinamico">murilo</li>
+                <li class="elemento_dinamico">samuel</li>
+            </ul>
+        </div>
 
         <section class="link">
             <p class="texto_link"> Para voltar a tela de apresentação do desafio clique no botão abaixo</p>

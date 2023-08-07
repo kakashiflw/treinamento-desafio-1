@@ -146,3 +146,38 @@ function validaNome(somenteLetras) {
         return false;
     }
 }
+
+
+
+function listaDinamica (name, date, sex, addres, phone, account, password) {
+
+    let meuNome = document.getElementById('seuNome').value;
+    let meuData = document.getElementById('nascimento').value;
+    let meuSexo = document.getElementById('genero').value;
+    let meuEndereço = document.getElementById('rua').value;
+    let meuCelular = document.getElementById('numero_tel').value;
+    let meuLogin = document.getElementById('login').value;
+    let meuSenha = document.getElementById('senha').value;
+
+    let lista = document.getElementById('listaDeCadastros').innerHTML
+
+    lista += "<li>" +meuNome+ "</li>"
+
+    lista += "<li>" +meuData+ "</li>"
+
+    lista += "<li>" +meuSexo+ "</li>"
+
+    lista += "<li>" +meuEndereço+ "</li>"
+
+    lista += "<li>" +meuCelular+ "</li>"
+
+    lista += "<li>" +meuLogin+ "</li>"
+
+    lista += "<li>" +meuSenha+ "</li>"
+
+    document.getElementById('listaDeCadastros').innerHTML = lista
+
+    console.log(lista);
+}
+
+formulario.submit = listaDinamica;
