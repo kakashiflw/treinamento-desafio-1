@@ -1,4 +1,3 @@
-
 const formulario = document.getElementById('formularios');
 const nome = document.getElementById('seuNome');
 const data = document.getElementById('nascimento');
@@ -18,12 +17,12 @@ const senha = document.getElementById('senha');
         // alert('seu nome é obrgatorio');
         return;
     }
-
+    
     if (!validaNome(nome.value)) {
-        alert('o nome só pode ter letras');
+        alert ('o nome pode ter somente letras');
         return;
-    }    
-
+    }
+    
     if (data.value === "") {
         alert('data de nascimento é obrgatorio');
         return;
@@ -41,6 +40,10 @@ const senha = document.getElementById('senha');
     if (celular.value === "") {
         alert('numero de celular é obrgatorio');
         return;
+    }
+
+    if (!validaCelular(celular.value)) {
+        alert ('numero de celular invalido');
     }
 
     if (login.value === "" || !validaEmail(login.value)) {
@@ -64,6 +67,20 @@ const senha = document.getElementById('senha');
     formulario.submit();
  });
 
+    // celula com mascara
+ celular.addEventListener('keypress', (mascaraCelular) => {
+    // mascaraCelular.preventDefault();
+
+    let celularLinha = celular.value.length
+
+    if(celularLinha === 0) {
+        celular.value += '(15)'
+    }
+
+    if(celularLinha === 9) {
+        celular.value += '-'
+    }
+ });
 
 
  //FUNÇÃO PARA VALIDAR O EMAIL
@@ -82,8 +99,8 @@ const senha = document.getElementById('senha');
     }
  }
 
- //função para validar a senha 
- function validaSenha (senha2, minimoDeDigitos) {
+//função para validar a senha 
+function validaSenha (senha2, minimoDeDigitos) {
     if(senha2.length >= minimoDeDigitos) {
         //senha correta
         return true;
@@ -91,15 +108,15 @@ const senha = document.getElementById('senha');
         //senha incorreta
         return false;
     }
- }
+}
 
- //função para validar o nome 
- function validaNome(somenteLetras) {
+//função para validar o nome 
+function validaNome(somenteLetras) {
 
     const nomeValido = new RegExp (
-      /^[a-zA-Z]+[a-zA-Z]+[a-zA-Z]+[a-zA-Z]+[a-zA-Z]{1,}$/
+
+        /^[a-zAz ]+[a-zAz ]+[a-zAz ]+[a-zAz ]+[a-zAz ]{2,}$/
     );
-    
 
     if(nomeValido.test(somenteLetras)) {
         //só letras esta correto
@@ -109,4 +126,23 @@ const senha = document.getElementById('senha');
         return false;
     }
 
+}
+
+//função para telefone ser somente com numero
+ function validaCelular (somenteNumero) {
+
+    const celularValido = new RegExp (
+
+        /^[(0-9)/0-9]+-[0-9]{1,}$/
+    );
+
+    
+    if(celularValido.test(somenteNumero)) {
+
+        //so numero ta correto
+        return true;
+    }else {
+        //alem de numero incorreto
+        return false;
+    }
 }

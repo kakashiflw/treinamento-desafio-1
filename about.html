@@ -46,7 +46,7 @@
 
                     <h4 class="tiutlo_formulario">Número de celular</h4>
 
-                    <input class="campos" placeholder="digite seu numero de celular" class="texto" type="number" name="número" id="numero_tel">
+                    <input class="campos" placeholder="digite seu numero de celular" class="texto" type="tel" name="número" id="numero_tel" autocomplete="off" maxlength="14">
 
                     <label for="numero_tel"></label>
 
@@ -62,7 +62,9 @@
 
                     <label for="senha"></label>
 
-                    <button id="cadastrar">cadastrar</button>
+                    <div class="button">
+                        <button type="submit" class="direcionar" id="cadastrar">cadastrar</button>
+                    </div>
                 </div>
             </form>
             <ul id="listaDeCadastros">
@@ -106,7 +108,7 @@
                 <h2 class="rodapé_titulo titulo_lista">Objetivo</h2>
                 <ul class="lista_rodapé">
                     <li class="lista_rodapé_elemento elemento_objetivo">
-                        Desenvolver uma pagina de login. Que esses cadastros fiquem exibidos em uma planilha.
+                        Desenvolver uma pagina de cadastros. Que esses cadastros fiquem exibidos em uma planilha.
                     </li>
                 </ul>
             </div>
