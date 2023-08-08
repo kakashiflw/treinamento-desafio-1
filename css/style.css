@@ -12,6 +12,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
 
 :root {
     --cor-de-fundo:#F8F1F1;
@@ -20,6 +21,7 @@
     --preto:black;
     --cor-do-botão:#0E2954;
     --cor-de-fundo-da-apresentção-do-formulario:#9ED2BE;
+    --cor-botão-cadastrar: #DDDDDD;
 
     --familia-pricipal: 'REM', sans-serif;
     --familia-titulo-conteudo: 'Nunito Sans', sans-serif;
@@ -28,21 +30,20 @@
     --familia-final: 'Roboto Condensed', sans-serif;
     --familia-botão: 'Roboto', sans-serif;
     --familia-rodapé: 'Noto Sans', sans-serif;
-    --familia-formulario:'Noto Sans Symbols', sans-serif;
+    --familia-formulario:'Prompt', sans-serif;
 
 
 }
 
 * {
     margin: 0vh;
-    padding: 0vh;
-    box-sizing: border-box;
+    padding: 0vh;  
 }
 
 body {
     background-color: var(--branco);
     height: 100vh;
     animation-name: animacao;
-    height: 100%;
     width: 100%;
+    box-sizing: border-box;
 }

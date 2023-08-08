@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+.principal {
+
+    height: 100vh;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+.legal {
+
+    align-items: center;
+    text-align: center;
+    background: rgb(34,67,195);
+    background: linear-gradient(0deg, rgba(34,67,195,0.804359243697479) 5%, rgba(121,45,253,0.958420868347339) 91%);
+}
+
+.formulario {
+
+    font-family: 'Prompt', sans-serif;
+    padding-top: 2em;
+}
+
+.campo {
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.campos {
+    /* padding: 1.5em 7em; */
+    border-radius: 12px;
+    border: 2px solid var( --cor-de-fundo-da-apresentção-do-formulario);
+    margin-bottom: 2em;
+    width: 50vh;
+    height: 6.5vh;
+    text-align: center;
+}
+
+.campos::placeholder {
+
+    font-size: 1.1rem;
+}
+
+
+.divisão_lista_dinamica {
+
+    gap: 30px;
+}
+
+.lista_dinamica {
+
+    gap: 30px;
+}
+
+.elemento_dinamico {
+
+    margin-bottom: .6em;
+}
+
+footer {
+    margin-top: 50em;
+}
+
+.lista_rodapé {
+
+    list-style: none;
+}
+
+.direcionar {
+
+    padding: .7em 9em; 
+    border-radius: 10px;
+    border: 2px solid var(--cor-de-fundo-da-apresentção-do-formulario);
+    margin-top: .7em;
+    font-family: var( --familia-titulo-conteudo);
+    font-size: 1.3rem;
+}
+
+.direcionar:hover {
+
+    background-color: var(--cor-botão-cadastrar);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    opacity: 0.7;
+    transition: opacity 6s ease;
+}
+
+.direcionar:active {
+
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 1px;
+    left: 1px;
+}

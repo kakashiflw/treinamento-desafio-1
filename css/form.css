@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols&display=swap');
 
 .seção_formulario {
 
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,109,121,1) 45%, rgba(0,212,255,1) 100%);
+    color: var(--preto);
     padding-bottom: 1.5em;
     color: var(--preto);
     align-items: center;
@@ -81,7 +84,7 @@ input {
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,109,121,1) 45%, rgba(0,212,255,1) 100%);
     color: var(--preto);
     /* margin-top: 5em; */
-}    
+/* }    
 .lista_dinamica {
     padding-left: 45em;
     font-family: var(--familia-formulario);
@@ -93,18 +96,8 @@ input {
     display: flex;flex-direction: column;
 }
 
-.apresentação_formulario {
-    align-items: center;
-    background-color: var(--cor-de-fundo-da-apresentção-do-formulario);
-    padding: 20em 0em 20em 25em;
-    margin: 1em 1em 0em 20em;
-    border-radius: 10px;
-    align-items: center;
-    text-align: center;
-}
-
 .formulario {
 
-    margin: 0em 30em 0em 0em ;
-
-}
+    
+    align-items: center;
+}  */

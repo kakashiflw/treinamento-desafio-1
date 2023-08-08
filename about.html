@@ -4,26 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>formulario de login</title>
-    <link rel="stylesheet" href="./css/style.css"> 
+    <link rel="stylesheet" href="./css/style.css">
     <!-- <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/apresentação.css">
     <link rel="stylesheet" href="./css/conteudo.css">
-    <link rel="stylesheet" href="./css/botão.css">
-    <link rel="stylesheet" href="./css/rodapé.css">  -->
-    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/botão.css"> -->
+    <link rel="stylesheet" href="./css/rodapé.css">
+    <link rel="stylesheet" href="./css/formulario.css">
 </head>
 
 <body>
-    <main>
+    <main class="principal">
  
 
         <section class="seção_formulario legal">
-            <div class="apresentação_formulario">
-                <h2>Bem vindo ao formulario!</h2>
-                <p>aqui sera onde você testara o meu projeto</p>
-            </div>
-
             <form class="formulario" id="formularios">
 
                 <div class="campo">
@@ -39,7 +34,7 @@
                 
                     <h4 class="tiutlo_formulario">Sexo</h4>
 
-                    <select class="seleção" name="" id="genero">
+                    <select class="seleção campos" name="" id="genero">
                         <option id="opcao" class="alternativa" value="">mulher</option>
                         <option id="opcao" class="alternativa" value="">homem</option>
                         <option id="opcao" class="alternativa" value="">outro</option>
@@ -76,21 +71,19 @@
                 </div>
                 
             </form>
-           
+            <div class="divisão_lista_dinamica">
+                <ul class="lista_dinamica" id="listaDeCadastros">
+                    <li class="elemento_dinamico">Victor</li>
+                    <li class="elemento_dinamico">albert</li>
+                    <li class="elemento_dinamico">caique</li>
+                    <li class="elemento_dinamico">murilo</li>
+                    <li class="elemento_dinamico">samuel</li>
+                </ul>
+            </div>
+    
         </section>
 
-        <div class="divisão_lista_dinamica">
-            <ul class="lista_dinamica" id="listaDeCadastros">
-                <li class="elemento_dinamico">Victor</li>
-                <li class="elemento_dinamico">albert</li>
-                <li class="elemento_dinamico">caique</li>
-                <li class="elemento_dinamico">murilo</li>
-                <li class="elemento_dinamico">samuel</li>
-            </ul>
-        </div>
-
-
-
+      
         <section class="link">
             <p class="texto_link"> Para voltar a tela de apresentação do desafio clique no botão abaixo</p>
             <a class="botão" href="index.html">formulario de cadastro</a>
