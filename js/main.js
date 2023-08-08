@@ -180,3 +180,7 @@ function listaDinamica (name, date, sex, addres, phone, account, password) {
 }
 
 formulario.submit = listaDinamica;
+
+function listaDeZebra () {
+    
+}
