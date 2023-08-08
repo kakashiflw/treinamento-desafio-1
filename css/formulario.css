@@ -5,7 +5,8 @@
 
     list-style: none;
     box-sizing: border-box;
-
+    height: 100vh;
+    
 }
 
 .legal {
@@ -14,12 +15,14 @@
     text-align: center;
     background: rgb(27,175,210);
     background: linear-gradient(0deg, rgba(27,175,210,0.9023984593837535) 21%, rgba(22,112,219,1) 68%);
+    
 }
 
 .formulario {
 
     font-family: 'Prompt', sans-serif;
     padding-top: 2em;
+    padding-bottom: 7em;
 }
 
 .campo {
@@ -32,21 +35,16 @@
     /* padding: 1.5em 7em; */
     border-radius: 12px;
     border: 2px solid var( --cor-de-fundo-da-apresentção-do-formulario);
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
     width: 50vh;
     height: 6.5vh;
     text-align: center;
+    font-size: 1rem;
 }
 
 .campos::placeholder {
 
     font-size: 1.1rem;
-}
-
-
-.divisão_lista_dinamica {
-
-    gap: 30px;
 }
 
 .lista_dinamica {
@@ -60,7 +58,7 @@
 }
 
 footer {
-    margin-top: 40em;
+    margin-top: 90em;
 }
 
 .lista_rodapé {
@@ -109,5 +107,24 @@ footer {
     padding: 3em;
     font-size: 3rem;
     font-family: var(--familia-titulo-formulario);
-    color: ;
+    color: #DADDDF;
+}
+
+.tiutlo_formulario {
+
+    font-size: 1.2rem;
+}
+
+.divisão_lista_dinamica {
+
+    /* padding-left: 46.7em; */
+    gap: 30px;
+    align-items: center;
+}
+
+.lista_dinamica {
+
+    display: flex;
+    list-style: none;
+    font-family: var(--familia-titulo-formulario);
 }

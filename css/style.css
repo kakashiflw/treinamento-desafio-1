@@ -44,8 +44,8 @@
 
 body {
     background-color: var(--branco);
-    height: 100vh;
-    animation-name: animacao;
+    height: 100vh;;
     width: 100%;
     box-sizing: border-box;
+    background-repeat: repeat-x;
 }
