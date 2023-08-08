@@ -89,7 +89,6 @@ const senha = document.getElementById('senha');
     const emalValido = new RegExp (
 
         /^[a-zA-Z0-9/._-]+@[a-zA-Z0-9/._-]+\.[a-z]{2,}$/
-
     );
 
     if(emalValido.test(email)) {
