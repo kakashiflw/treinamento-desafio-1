@@ -6,6 +6,7 @@
     list-style: none;
     box-sizing: border-box;
     height: 100vh;
+    color: black;
 
 }
 
@@ -125,13 +126,9 @@ footer {
     
 }
 
-.lista_dinamica {
+.tebela_dinamica {
 
-    list-style: none;
-    font-family: var(--familia-titulo-formulario);
-    gap: 50px; 
-    padding: 1.5em 0em 1.5em 0em;
-    background-color: var(--cor-lista-zebra);
+    
 }
 
 li {

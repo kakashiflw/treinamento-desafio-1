@@ -161,7 +161,7 @@ function listaDinamica (name, date, sex, addres, phone, account, password) {
 
     let lista = document.getElementById('listaDeCadastros').innerHTML
 
-    lista += "<p>" +meuNome+ "</p>"
+    lista += "<>" +meuNome+ "</p>"
 
     lista += "<p>" +meuData+ "</p>"
 
@@ -178,5 +178,3 @@ function listaDinamica (name, date, sex, addres, phone, account, password) {
     document.getElementById('listaDeCadastros').innerHTML = lista;
 
 }
-
-formulario.submit = listaDinamica;
