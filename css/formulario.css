@@ -6,7 +6,7 @@
     list-style: none;
     box-sizing: border-box;
     height: 100vh;
-    
+
 }
 
 .legal {
@@ -15,7 +15,7 @@
     text-align: center;
     background: rgb(27,175,210);
     background: linear-gradient(0deg, rgba(27,175,210,0.9023984593837535) 21%, rgba(22,112,219,1) 68%);
-    
+
 }
 
 .formulario {
@@ -68,7 +68,7 @@ footer {
 
 .direcionar {
 
-    padding: .7em 9em; 
+    padding: .7em 9em;
     border-radius: 10px;
     border: 2px solid var(--cor-de-fundo-da-apresentção-do-formulario);
     margin-top: .7em;
@@ -120,14 +120,21 @@ footer {
     /* padding-left: 46.7em; */
     gap: 30px;
     align-items: center;
-    margin: 5em 15em 5em 0em;
+    margin-top: 5em;
+    text-align: center;
+    
 }
 
 .lista_dinamica {
 
-    display: flex;
     list-style: none;
     font-family: var(--familia-titulo-formulario);
-    gap: 40px;
+    gap: 50px; 
+    padding: 1.5em 0em 1.5em 0em;
+    background-color: var(--cor-lista-zebra);
 }
 
+li {
+
+    width: 100px auto;
+}

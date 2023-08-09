@@ -67,6 +67,7 @@ const senha = document.getElementById('senha');
 
     formulario.submit();
     formulario.reset();
+
  });
 
     // celula com mascara
@@ -116,7 +117,7 @@ function validaNome(somenteLetras) {
 
     const nomeValido = new RegExp (
 
-        /^[a-zAz ]+[a-zAz ]+[a-zAz ]+[a-zAz ]+[a-zAz ]{2,}$/
+        /^[a-zAz ]+[a-zAz ]+[a-zAz ]+[a-zAz ]+[a-zAz ]{1,}$/
     );
 
     if(nomeValido.test(somenteLetras)) {
@@ -148,8 +149,6 @@ function validaNome(somenteLetras) {
     }
 }
 
-
-
 function listaDinamica (name, date, sex, addres, phone, account, password) {
 
     let meuNome = document.getElementById('seuNome').value;
@@ -162,23 +161,22 @@ function listaDinamica (name, date, sex, addres, phone, account, password) {
 
     let lista = document.getElementById('listaDeCadastros').innerHTML
 
-    lista += "<li>" +meuNome+ "</li>"
+    lista += "<p>" +meuNome+ "</p>"
 
-    lista += "<li>" +meuData+ "</li>"
+    lista += "<p>" +meuData+ "</p>"
 
-    lista += "<li>" +meuSexo+ "</li>"
+    lista += "<p>" +meuSexo+ "</p>"
 
-    lista += "<li>" +meuEndereço+ "</li>"
+    lista += "<p>" +meuEndereço+ "</p>"
 
-    lista += "<li>" +meuCelular+ "</li>"
+    lista += "<p>" +meuCelular+ "</p>"
 
-    lista += "<li>" +meuLogin+ "</li>"
+    lista += "<p>" +meuLogin+ "</p>"
 
-    lista += "<li>" +meuSenha+ "</li>"
+    lista += "<p>" +meuSenha+ "</p>"
 
-    document.getElementById('listaDeCadastros').innerHTML = lista
+    document.getElementById('listaDeCadastros').innerHTML = lista;
 
-    console.log(lista);
 }
 
 formulario.submit = listaDinamica;
