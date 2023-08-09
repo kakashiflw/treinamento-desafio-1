@@ -120,6 +120,7 @@ footer {
     /* padding-left: 46.7em; */
     gap: 30px;
     align-items: center;
+    margin: 5em 15em 5em 0em;
 }
 
 .lista_dinamica {
@@ -127,4 +128,6 @@ footer {
     display: flex;
     list-style: none;
     font-family: var(--familia-titulo-formulario);
+    gap: 40px;
 }
+

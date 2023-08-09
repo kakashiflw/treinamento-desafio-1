@@ -7,13 +7,13 @@ const celular = document.getElementById('numero_tel');
 const login = document.getElementById('login');
 const senha = document.getElementById('senha');
 
- formulario.addEventListener('submit', (evento) => {
-    evento.preventDefault()
+ formulario.addEventListener('submit', (vitinho) => {
+    vitinho.preventDefault()
 
 
     if (nome.value === "") {
         alert('os campos são obrigatorios');
-        alert('o nome é obrigatorio')
+        alert('o nome é obrigatorio');
         // alert('seu nome é obrgatorio');
         return;
     }
@@ -44,6 +44,7 @@ const senha = document.getElementById('senha');
 
     if (!validaCelular(celular.value)) {
         alert ('numero de celular invalido');
+        return;
     }
 
     if (login.value === "" || !validaEmail(login.value)) {
@@ -65,6 +66,7 @@ const senha = document.getElementById('senha');
     }
 
     formulario.submit();
+    formulario.reset();
  });
 
     // celula com mascara
@@ -180,7 +182,3 @@ function listaDinamica (name, date, sex, addres, phone, account, password) {
 }
 
 formulario.submit = listaDinamica;
-
-function listaDeZebra () {
-    
-}
