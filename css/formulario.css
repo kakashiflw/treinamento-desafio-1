@@ -8,15 +8,15 @@
     box-sizing: border-box;
     /* height: 100vh; */
     color: black;
-    background: rgb(27,175,210);
-    background: linear-gradient(0deg, rgba(27,175,210,0.9023984593837535) 21%, rgba(22,112,219,1) 68%);
+    
 }
 
 .legal {
 
     align-items: center;
     text-align: center;
-
+    background: rgb(59,114,240);
+    background: linear-gradient(90deg, rgba(59,114,240,1) 34%, rgba(17,85,191,0.8855917366946778) 75%);
 }
 
 .formulario {
@@ -108,15 +108,6 @@ footer {
     font-size: 1.2rem;
 }
 
-.divisão_lista_dinamica {
-
-    /* padding-left: 46.7em; */
-    align-items: center;
-    margin: 5em 0em 5em 0em;
-    text-align: center;
-    
-    
-}
 
 .titulo_tabela {
 
@@ -129,6 +120,8 @@ footer {
 table {
 
     border-collapse: collapse;
+    
+    
 }
 
 th {
@@ -138,8 +131,6 @@ th {
     font-size: 1.5rem;
     font-family: var(--familia-titulo-formulario);
     /* border: 2px solid #93BFCF; */
-    background: rgb(35,198,255);
-    background: linear-gradient(90deg, rgba(35,198,255,1) 38%, rgba(0,172,255,0.8211659663865546) 75%);
     text-align: center;
 }
 
@@ -154,7 +145,7 @@ td {
 
 tr:nth-child(even) {
 
-    background-color: #DDDDDD;
+    background-color: #DADDDF;
 }
 
 .legal_apresentação {
@@ -175,3 +166,25 @@ tr:nth-child(even) {
 
     font-size: 1.1rem;
 }
+
+.divisão_lista_dinamica {
+
+    /* padding-left: 46.7em; */
+    align-items: center;
+    margin: 5em 0em 5em 0em;
+    text-align: center;
+    align-items: center;
+    background-image: url("../img/cadastro.png");
+    background-size: 7em;
+    background-repeat: no-repeat;
+}
+
+
+.imagem_lista {
+
+    width: 7%;
+    padding-left: 50em;
+    padding-top: 1em;
+    margin: 0;
+}
+
