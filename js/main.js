@@ -97,7 +97,7 @@ const senha = document.getElementById('senha');
 
     const emalValido = new RegExp (
 
-        /^[a-zA-Z0-9/._-]+@[a-zA-Z0-9/._-]+\.[a-z]{2,}$/
+        /^[a-zA-Z0-9/._-]+@[a-zA-Z0-9/._-]+\.[a-zA-Z]{2,}$/
     );
 
     if(emalValido.test(email)) {
@@ -160,7 +160,7 @@ function validaGenero (somenteValido) {
 
     const generoValido = new RegExp (
 
-        /^[HomemHomemMulherMulherOutroOutro]{1,}$/
+         /^[homemHomemmulherMulheroutroOutro]{1,}$/
     );
 
     if(generoValido.test(somenteValido)){

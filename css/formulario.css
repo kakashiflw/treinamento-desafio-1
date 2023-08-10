@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
+
 .principal {
 
     list-style: none;
     box-sizing: border-box;
-    height: 100vh;
+    /* height: 100vh; */
     color: black;
-
+    background: rgb(27,175,210);
+    background: linear-gradient(0deg, rgba(27,175,210,0.9023984593837535) 21%, rgba(22,112,219,1) 68%);
 }
 
 .legal {
 
     align-items: center;
     text-align: center;
-    background: rgb(27,175,210);
-    background: linear-gradient(0deg, rgba(27,175,210,0.9023984593837535) 21%, rgba(22,112,219,1) 68%);
 
 }
 
@@ -59,7 +59,7 @@
 }
 
 footer {
-    margin-top: 110em;
+    margin-top: 50em; 
 }
 
 .lista_rodapé {
@@ -103,14 +103,6 @@ footer {
     width: 10%;
 }
 
-.titulo_seção {
-
-    padding: 3em;
-    font-size: 3rem;
-    font-family: var(--familia-titulo-formulario);
-    color: #DADDDF;
-}
-
 .tiutlo_formulario {
 
     font-size: 1.2rem;
@@ -128,7 +120,7 @@ footer {
 
 .titulo_tabela {
 
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: var(--familia-titulo-conteudo);
     margin-bottom: 3em;
     
@@ -145,8 +137,9 @@ th {
     padding: .6em;
     font-size: 1.5rem;
     font-family: var(--familia-titulo-formulario);
-    border: 2px solid #93BFCF;
-    border-radius: 8px;
+    /* border: 2px solid #93BFCF; */
+    background: rgb(35,198,255);
+    background: linear-gradient(90deg, rgba(35,198,255,1) 38%, rgba(0,172,255,0.8211659663865546) 75%);
     text-align: center;
 }
 
@@ -161,10 +154,24 @@ td {
 
 tr:nth-child(even) {
 
-    background-color: #93BFCF;
+    background-color: #DDDDDD;
 }
 
-.link {
+.legal_apresentação {
 
-    margin-top: 5em;
+    padding: 4em;
+    color: #DADDDF;
+    font-family: var(--familia-titulo-formulario);
+    align-items: center;
+}
+
+.titulo_seção {
+    font-size: 3rem;
+    
+    
+    padding-bottom: 1em;
+}
+.paragrafo_seção {
+
+    font-size: 1.1rem;
 }
