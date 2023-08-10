@@ -182,24 +182,15 @@ function listaDinamica (name, date, sex, addres, phone, account, password) {
     let meuLogin = document.getElementById('login').value;
     let meuSenha = document.getElementById('senha').value;
 
-    let lista = document.getElementById('listaDeCadastros').innerHTML
+    let lista = document.getElementById('listaDeCadastros_um').innerHTML
+    // let lista2 = document.getElementById('dinamico').innerHTML
 
-    // lista += "<tr>" +meuNome+ "</tr>"
 
-    // lista += "<tr>" +meuData+ "</tr>"
-
-    // lista += "<tr>" +meuSexo+ "</tr>"
-
-    // lista += "<tr>" +meuEndereço+ "</tr>"
-
-    // lista += "<tr>" +meuCelular+ "</tr>"
-
-    // lista += "<tr>" +meuLogin+ "</tr>"
-
-    // lista += "<tr>" +meuSenha+ "</tr>"
 
     //lista dinamica -----------------
-    lista += "<tr>" 
+
+    // lista2 += "<tr>" +lista2+ "<tr>"
+
     lista += "<td>" +meuNome+ "</td>"
 
     lista += "<td>" +meuData+ "</td>"
@@ -213,9 +204,9 @@ function listaDinamica (name, date, sex, addres, phone, account, password) {
     lista += "<td>" +meuLogin+ "</td>"
 
     lista += "<td>" +meuSenha+ "</td>"
-    "</tr>"
 
-    document.getElementById('listaDeCadastros').innerHTML = lista;
+    document.getElementById('listaDeCadastros_um').innerHTML = lista;
+    // document.getElementById('dinamico').innerHTML = lista2;
 
 }
 

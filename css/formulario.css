@@ -59,7 +59,7 @@
 }
 
 footer {
-    margin-top: 90em;
+    margin-top: 110em;
 }
 
 .lista_rodapé {
@@ -155,10 +155,16 @@ td {
     padding: .7em;
     font-size: 1.1rem;
     font-family: var(--familia-final);
+    width: auto;
 
 }
 
 tr:nth-child(even) {
 
     background-color: #93BFCF;
+}
+
+.link {
+
+    margin-top: 5em;
 }
