@@ -119,19 +119,46 @@ footer {
 .divisão_lista_dinamica {
 
     /* padding-left: 46.7em; */
-    gap: 30px;
     align-items: center;
-    margin-top: 5em;
+    margin: 5em 0em 5em 0em;
     text-align: center;
     
-}
-
-.tebela_dinamica {
-
     
 }
 
-li {
+.titulo_tabela {
 
-    width: 100px auto;
+    font-size: 3rem;
+    font-family: var(--familia-titulo-conteudo);
+    margin-bottom: 3em;
+    
+}
+
+table {
+
+    border-collapse: collapse;
+}
+
+th {
+
+    width: 100vh;
+    padding: .6em;
+    font-size: 1.5rem;
+    font-family: var(--familia-titulo-formulario);
+    border: 2px solid #93BFCF;
+    border-radius: 8px;
+    text-align: center;
+}
+
+td {
+
+    padding: .7em;
+    font-size: 1.1rem;
+    font-family: var(--familia-final);
+
+}
+
+tr:nth-child(even) {
+
+    background-color: #93BFCF;
 }

@@ -28,8 +28,14 @@ const senha = document.getElementById('senha');
         return;
     }
 
-    if (sexo.value === "mulher || hommem || outro") {
+    if (sexo.value === "") {
+        alert('escreva seu sexo')
         return true;
+    }
+
+    if (!validaGenero(sexo.value)) {
+        alert('escreva homem, mulher ou outro')
+        return;
     }
 
     if (endereço.value === "") {
@@ -117,7 +123,7 @@ function validaNome(somenteLetras) {
 
     const nomeValido = new RegExp (
 
-        /^[a-zAz ]+[a-zAz ]+[a-zAz ]+[a-zAz ]+[a-zAz ]{1,}$/
+        /^[a-zA-Z ]+[a-zA-Z ]+[a-zA-Z ]+[a-zA-Z ]+[a-zA-Z ]{2,}$/
     );
 
     if(nomeValido.test(somenteLetras)) {
@@ -149,6 +155,23 @@ function validaNome(somenteLetras) {
     }
 }
 
+//função para validar o genero
+function validaGenero (somenteValido) {
+
+    const generoValido = new RegExp (
+
+        /^[HomemHomemMulherMulherOutroOutro]{1,}$/
+    );
+
+    if(generoValido.test(somenteValido)){
+
+        return true;
+    }else {
+
+        return false;
+    }
+}
+
 function listaDinamica (name, date, sex, addres, phone, account, password) {
 
     let meuNome = document.getElementById('seuNome').value;
@@ -161,20 +184,39 @@ function listaDinamica (name, date, sex, addres, phone, account, password) {
 
     let lista = document.getElementById('listaDeCadastros').innerHTML
 
-    lista += "<>" +meuNome+ "</p>"
+    // lista += "<tr>" +meuNome+ "</tr>"
 
-    lista += "<p>" +meuData+ "</p>"
+    // lista += "<tr>" +meuData+ "</tr>"
 
-    lista += "<p>" +meuSexo+ "</p>"
+    // lista += "<tr>" +meuSexo+ "</tr>"
 
-    lista += "<p>" +meuEndereço+ "</p>"
+    // lista += "<tr>" +meuEndereço+ "</tr>"
 
-    lista += "<p>" +meuCelular+ "</p>"
+    // lista += "<tr>" +meuCelular+ "</tr>"
 
-    lista += "<p>" +meuLogin+ "</p>"
+    // lista += "<tr>" +meuLogin+ "</tr>"
 
-    lista += "<p>" +meuSenha+ "</p>"
+    // lista += "<tr>" +meuSenha+ "</tr>"
+
+    //lista dinamica -----------------
+    lista += "<tr>" 
+    lista += "<td>" +meuNome+ "</td>"
+
+    lista += "<td>" +meuData+ "</td>"
+
+    lista += "<td>" +meuSexo+ "</td>"
+
+    lista += "<td>" +meuEndereço+ "</td>"
+
+    lista += "<td>" +meuCelular+ "</td>"
+
+    lista += "<td>" +meuLogin+ "</td>"
+
+    lista += "<td>" +meuSenha+ "</td>"
+    "</tr>"
 
     document.getElementById('listaDeCadastros').innerHTML = lista;
 
 }
+
+formulario.submit = listaDinamica;
