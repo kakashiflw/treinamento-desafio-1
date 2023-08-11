@@ -28,14 +28,12 @@ h6 {
 }
 
 .brenga {
-    text-decoration: none;
-    color: black;
-    font-size: 1rem;
-    width: 30em;
-    
-    font-size: 1.3rem;
-    font-family: var(--familia-sobre-mim);
-    gap: 0px;
+  text-decoration: double;
+  color: black;
+  font-size: 1rem;
+  width: 30em;  
+  font-size: 1.3rem;
+  font-family: var(--familia-sobre-mim);
 }
 
 .sobreMim_texto {

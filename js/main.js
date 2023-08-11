@@ -101,8 +101,10 @@ const senha = document.getElementById('senha');
     );
 
     if(emalValido.test(email)) {
+        //email correto
         return true
     }else {
+        //email incorreto
         return false
     }
  }
@@ -183,13 +185,8 @@ function listaDinamica (name, date, sex, addres, phone, account, password) {
     let meuSenha = document.getElementById('senha').value;
 
     let lista = document.getElementById('listaDeCadastros_um').innerHTML
-    // let lista2 = document.getElementById('dinamico').innerHTML
-
-
 
     //lista dinamica -----------------
-
-    // lista2 += "<tr>" +lista2+ "<tr>"
 
     lista += "<td>" +meuNome+ "</td>"
 
@@ -206,7 +203,6 @@ function listaDinamica (name, date, sex, addres, phone, account, password) {
     lista += "<td>" +meuSenha+ "</td>"
 
     document.getElementById('listaDeCadastros_um').innerHTML = lista;
-    // document.getElementById('dinamico').innerHTML = lista2;
 
 }
 
