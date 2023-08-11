@@ -2,8 +2,39 @@
 
 .link {
 
-    margin: 35em 30em;
+    margin: 10em 0em 0em 50em;
     align-items: center;
+    font-family: var(--familia-titulo-conteudo);
+    margin: 25em 0em 25em 10em;
 
 }
+.texto_link {
 
+    font-size: 2rem;
+    margin-bottom: 2em;
+}
+
+.botão {
+
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 30px;
+    font-size: 20px;
+    border: none;
+    background-color: rgba(59,114,240,1);
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.botão:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Estilo quando pressionado */
+  .botão:active {
+    background-color: #1f6690;
+  }

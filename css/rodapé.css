@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 .rodapé {
-    background: rgb(156,156,170);
-    background: linear-gradient(90deg, rgba(156,156,170,0.798739564185049) 0%, rgba(64,74,179,1) 0%, rgba(29,19,222,1) 100%);
+    background: rgb(59,114,240);
+    background: linear-gradient(90deg, rgba(59,114,240,1) 34%, rgba(17,85,191,0.8855917366946778) 75%);
     padding: 1em 0em 1em 0em;
 }    
 
