@@ -10,6 +10,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 
 :root {
     --cor-de-fundo:#F8F1F1;
@@ -31,6 +32,7 @@
     --familia-formulario:'Prompt', sans-serif;
     --familia-titulo-formulario:'Montserrat', sans-serif;
     --familia-cabeçalho: 'Mukta', sans-serif;
+    --familia-sobre-mim: 'Nunito', sans-serif;
 
 
 }
