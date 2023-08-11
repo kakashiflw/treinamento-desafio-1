@@ -40,7 +40,15 @@
     width: 10em;
 }
 
-.cinco {
 
-    font-family: var(--familia-conteudo);
+
+.tres {
+
+    background-color: white;
+    border: none;
+}
+
+.dez {
+
+    background-color: white;
 }
